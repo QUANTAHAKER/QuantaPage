@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quanta | Empowered by apalliance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="navbar-container">
+      <a href="#inicio" class="navbar-brand">
+        <div class="logo">
+          <img src="logo.png" alt="Quanta" class="logo-icon">
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-right">
+        <nav class="nav-menu nav-links" id="navMenu">
+          <a href="#producto">Producto</a>
+          <a href="#universidad">Universidad</a>
+          <a href="#precios">Precios</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="nav-buttons">
+          <a href="https://calendly.com/jcaro-qpalliance/demo-quanta" class="btn-demo" target="_blank" rel="noopener">Agenda una demo</a>
+          <a href="#login" class="btn-login">Login</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="inicio" class="hero">
+    <!-- Fondo dinámico y efectos -->
+    <div class="hero-bg-grid" aria-hidden="true"></div>
+    <div class="hero-glow hero-mouse-light" id="heroMouseLight" aria-hidden="true"></div>
+    <div class="hero-shine" aria-hidden="true"></div>
+    <div class="hero-decor">
+      <span class="hero-shape hero-shape-1"></span>
+      <span class="hero-shape hero-shape-2"></span>
+      <span class="hero-shape hero-shape-3"></span>
+      <span class="hero-shape hero-shape-4"></span>
+      <span class="hero-shape hero-shape-5"></span>
+    </div>
+    <div id="hero-particles" class="hero-particles" aria-hidden="true"></div>
+
+    <div class="hero-grid">
+      <div class="hero-content">
+        <h1 class="hero-title" id="heroTitle">
+          <img src="nombre.png" alt="Quanta" class="hero-title-img">
+        </h1>
+        <p class="hero-desc" id="heroDesc">
+          Quanta ayuda a compañías de la industria manufacturera a implementar tecnología que les permita controlar, organizar y optimizar sus recursos empresariales.
+        </p>
+        <a href="#contacto" class="cta-btn cta-button">
+          <span class="cta-btn-text">Agenda una demo</span>
+          <span class="cta-btn-arrow">→</span>
+        </a>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-visual-glow" aria-hidden="true"></div>
+        <div id="hero-visual-particles" class="hero-visual-particles" aria-hidden="true"></div>
+        <div class="hero-visual-image-wrap">
+          <img src="esfera.png" alt="" class="hero-visual-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÓDULOS DEL ECOSISTEMA QUANTA -->
+  <section id="producto" class="section producto-section">
+    <div class="container">
+      <div class="producto-header">
+        <h2 class="section-title">Módulos del Ecosistema Quanta</h2>
+        <p class="section-description">
+          Quanta es un software inteligente diseñado para acompañar a las empresas
+          manufactureras en su transición hacia la Industria 4.0. Conecta producción,
+          inventarios, compras, CRM y Talento Humano en un solo sistema digital.
+          Acompañado de un módulo de Business Intelligence para la toma de decisiones
+          asertivas.
+        </p>
+      </div>
+
+      <div class="modulos-grid">
+        <div class="modulo-card produccion">
+          <div class="modulo-header">
+            <h3 class="modulo-titulo">Producción</h3>
+          </div>
+          <ul class="modulo-features">
+            <li>Planificación de recursos y capacidades</li>
+            <li>Órdenes automáticas y seguimiento en tiempo real</li>
+            <li>Visualización de procesos con IA</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card inventarios">
+          <div class="modulo-header">
+            <h3 class="modulo-titulo">Inventarios</h3>
+          </div>
+          <ul class="modulo-features">
+            <li>Control de existencias y trazabilidad completa</li>
+            <li>Optimización de niveles de stock mediante análisis predictivo</li>
+            <li>Actualización automática</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card compras">
+          <div class="modulo-header">
+            <h3 class="modulo-titulo">Compras</h3>
+          </div>
+          <ul class="modulo-features">
+            <li>Automatización del ciclo completo de abastecimiento</li>
+            <li>Calificación inteligente de proveedores</li>
+            <li>Control de tiempos, topes presupuestales y órdenes</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card crm">
+          <div class="modulo-header">
+            <h3 class="modulo-titulo">CRM</h3>
+          </div>
+          <ul class="modulo-features">
+            <li>Seguimiento integral de clientes y oportunidades</li>
+            <li>Forecast comercial basado en IA</li>
+            <li>Reportes personalizados y exportables</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card talento">
+          <div class="modulo-header">
+            <h3 class="modulo-titulo">Talento Humano</h3>
+          </div>
+          <ul class="modulo-features">
+            <li>Todos los empleados y contratos en un solo lugar</li>
+            <li>Asistencia y turnos de trabajo</li>
+            <li>Incapacidades</li>
+            <li>Vacaciones y licencias</li>
+          </ul>
+        </div>
+
+        <div class="modulo-card business-intelligence">
+          <div class="modulo-header">
+            <h3 class="modulo-titulo">Business Intelligence</h3>
+          </div>
+          <ul class="modulo-features">
+            <li>Tableros interactivos y reportes automáticos</li>
+            <li>Análisis predictivo de desempeño operativo</li>
+            <li>KPIs en tiempo real para decisiones estratégicas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UNIVERSIDAD QUANTA -->
+  <section id="universidad" class="section universidad-section">
+    <div class="container">
+      <div class="universidad-header">
+        <div class="header-badge">
+          <span class="badge-icon">🎓</span>
+          <span class="badge-text">Universidad Quanta</span>
+        </div>
+        <h2 class="section-title">Aprende sobre manufactura inteligente</h2>
+        <p class="section-subtitle universidad-subtitle">
+          Artículos, guías y recursos para llevar tu empresa manufacturera
+          hacia la Industria 4.0
+        </p>
+      </div>
+
+      <div class="blog-filters">
+        <button type="button" class="filter-btn active" data-category="all">Todos</button>
+        <button type="button" class="filter-btn" data-category="mrp-erp">MRP & ERP</button>
+        <button type="button" class="filter-btn" data-category="industria40">Industria 4.0</button>
+        <button type="button" class="filter-btn" data-category="estrategia">Estrategia</button>
+      </div>
+
+      <div class="blog-grid">
+        <article class="blog-card" data-category="mrp-erp">
+          <div class="card-tag">MRP & ERP</div>
+          <h3 class="card-title">¿Qué es un MRP y para qué sirve en manufactura?</h3>
+          <p class="card-excerpt">
+            Un MRP (Material Requirements Planning) es un sistema de planificación
+            de requerimientos de materiales diseñado para ayudar a las empresas
+            manufactureras a determinar qué producir, cuánto producir y cuándo producirlo.
+          </p>
+          <div class="card-meta">
+            <span class="read-time">⏱ 5 min lectura</span>
+          </div>
+          <button type="button" class="card-btn" data-article="mrp-que-es">Leer más →</button>
+        </article>
+
+        <article class="blog-card" data-category="mrp-erp">
+          <div class="card-tag">MRP & ERP</div>
+          <h3 class="card-title">Diferencias entre un MRP I y MRP II</h3>
+          <p class="card-excerpt">
+            El MRP I se enfoca en materiales. El MRP II integra materiales,
+            capacidad y finanzas. Descubre cuál necesitas según tu operación.
+          </p>
+          <div class="card-meta">
+            <span class="read-time">⏱ 6 min lectura</span>
+          </div>
+          <button type="button" class="card-btn" data-article="mrp-diferencias">Leer más →</button>
+        </article>
+
+        <article class="blog-card" data-category="mrp-erp">
+          <div class="card-tag">MRP & ERP</div>
+          <h3 class="card-title">¿Qué es un ERP y cómo se diferencia de un MRP?</h3>
+          <p class="card-excerpt">
+            Un ERP es un sistema integral que conecta todas las áreas de la
+            organización. Mientras el MRP planifica materiales, el ERP gestiona
+            toda la empresa.
+          </p>
+          <div class="card-meta">
+            <span class="read-time">⏱ 5 min lectura</span>
+          </div>
+          <button type="button" class="card-btn" data-article="erp-vs-mrp">Leer más →</button>
+        </article>
+
+        <article class="blog-card" data-category="industria40">
+          <div class="card-tag">Industria 4.0</div>
+          <h3 class="card-title">Industria 4.0: qué es y cómo aplicarla en manufactura</h3>
+          <p class="card-excerpt">
+            La Industria 4.0 no es solo robots y automatización. Es integración,
+            datos en tiempo real y toma de decisiones inteligente.
+          </p>
+          <div class="card-meta">
+            <span class="read-time">⏱ 7 min lectura</span>
+          </div>
+          <button type="button" class="card-btn" data-article="industria40">Leer más →</button>
+        </article>
+
+        <article class="blog-card" data-category="industria40">
+          <div class="card-tag">Industria 4.0</div>
+          <h3 class="card-title">¿Cómo encaja Quanta dentro de la Industria 4.0?</h3>
+          <p class="card-excerpt">
+            Quanta ayuda a empresas manufactureras a digitalizar su operación,
+            integrando procesos clave y eliminando la dependencia de Excel.
+          </p>
+          <div class="card-meta">
+            <span class="read-time">⏱ 4 min lectura</span>
+          </div>
+          <button type="button" class="card-btn" data-article="quanta-industria40">Leer más →</button>
+        </article>
+
+        <article class="blog-card" data-category="estrategia">
+          <div class="card-tag">Estrategia</div>
+          <h3 class="card-title">Make to Order vs Make to Stock: el problema no es el modelo</h3>
+          <p class="card-excerpt">
+            El enemigo no es elegir entre MTO o MTS. El enemigo es no tener
+            visibilidad suficiente para ejecutar con disciplina.
+          </p>
+          <div class="card-meta">
+            <span class="read-time">⏱ 8 min lectura</span>
+          </div>
+          <button type="button" class="card-btn" data-article="mto-vs-mts">Leer más →</button>
+        </article>
+      </div>
+
+      <div class="universidad-cta">
+        <h3>¿Listo para transformar tu operación?</h3>
+        <p>Descubre cómo Quanta puede ayudarte a digitalizar tu manufactura</p>
+        <a href="#contacto" class="cta-button">Agenda una demo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="precios" class="section pricing-section">
+    <div class="container">
+      <div class="pricing-header">
+        <h2 class="pricing-title">Arma tu <span class="pricing-title-accent">Paquete Quanta</span></h2>
+        <p class="pricing-subtitle">Software de gestión de producción industrial,<br>adaptando a la necesidad y complejidad de tu&nbsp;operación.</p>
+        <p class="pricing-composition">La inversión en <span class="pricing-composition-accent">Quanta</span> se compone de implementación más licenciamiento.</p>
+      </div>
+
+      <div class="pricing-cards">
+        <div class="pricing-card js-open-quote-modal" data-modal="quote" role="button" tabindex="0" aria-label="Abrir cotización">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M12 1v6m0 6v6M5.6 5.6l4.2 4.2m4.2 4.2l4.2 4.2M1 12h6m6 0h6M5.6 18.4l4.2-4.2m4.2-4.2l4.2-4.2"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Implementación</h3>
+          <div class="card-price">
+            <span class="price-label">Desde</span>
+            <span class="price-amount">USD 2,504</span>
+            <span class="price-period">(pago único) + IVA</span>
+          </div>
+          <ul class="card-features">
+            <li><span class="check">✓</span> Configuración inicial</li>
+            <li><span class="check">✓</span> Parametrización</li>
+            <li><span class="check">✓</span> Puesta en marcha del sistema</li>
+            <li><span class="check">✓</span> Acompañamiento inicial</li>
+          </ul>
+        </div>
+
+        <div class="pricing-plus">
+          <div class="plus-symbol">+</div>
+        </div>
+
+        <div class="pricing-card js-open-licencias-modal" role="button" tabindex="0" aria-label="Ver comparación de licencias">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Licenciamiento</h3>
+          <div class="card-price">
+            <span class="price-label">Desde</span>
+            <span class="price-amount">USD 108 <span class="price-per">/usuario</span></span>
+            <span class="price-period">(mensual) No incluye IVA</span>
+          </div>
+          <ul class="card-features">
+            <li><span class="check">✓</span> A partir del go-live del sistema</li>
+            <li><span class="check">✓</span> Contratos anuales</li>
+            <li><span class="check">✓</span> Descuento por pago anticipado</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pricing-cta">
+        <a href="#" class="cta-button js-open-quote-modal" data-modal="quote">
+          <span class="cta-button-text">
+            <span class="cta-button-main">Cotiza tu inversión</span>
+            <span class="cta-button-hint">solo tomará un minuto</span>
+          </span>
+        </a>
+        <p class="cta-subtitle">Calcula una estimación según tu industria<br>y tamaño de operación.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE CONTACTO (rediseño) -->
+  <section id="contacto" class="section contact-section">
+    <div class="container">
+      <div class="contact-header">
+        <h2 class="section-title">
+          <span class="title-icon">✉</span>
+          Contacto
+        </h2>
+        <div class="section-subtitle-enhanced">
+          <p class="subtitle-line">Conversemos sobre tus retos y cómo <span class="subtitle-highlight">QUANTA puede ayudarte.</span></p>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-channels">
+          <div class="contact-card">
+            <div class="card-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="M2 7l10 7 10-7"/>
+              </svg>
+            </div>
+            <div class="card-content">
+              <h3>Correo</h3>
+              <p>Escríbenos directamente</p>
+              <a href="mailto:jcaro@apalliance.co" class="contact-link">jcaro@apalliance.co</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="card-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div class="card-content">
+              <h3>Llámanos</h3>
+              <p>Línea directa</p>
+              <a href="tel:+573506700000" class="contact-link">+57 350 670 0000</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="card-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+            </div>
+            <div class="card-content">
+              <h3>Agenda</h3>
+              <p>Reserva una reunión</p>
+              <a href="https://calendly.com/jcaro-qpalliance/demo-quanta" class="contact-link" target="_blank" rel="noopener">Agendar llamada</a>
+            </div>
+          </div>
+          <div class="social-links">
+            <p class="social-label">Síguenos</p>
+            <div class="social-icons">
+              <a href="https://linkedin.com/company/quanta" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              <a href="https://facebook.com/quanta" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/quantaad2026/" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+                </svg>
+              </a>
+              <a href="https://www.tiktok.com/@quanta_qpalliance" target="_blank" rel="noopener" class="social-icon" aria-label="TikTok">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <form id="contactForm" class="contact-form" onsubmit="return handleContactSubmit(event);">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre *</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+              </div>
+              <div class="form-group">
+                <label for="correo">Correo *</label>
+                <input type="email" id="correo" name="correo" required placeholder="tu@empresa.com">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="numero">Número *</label>
+                <input type="tel" id="numero" name="numero" required placeholder="+57 300 123 4567">
+              </div>
+              <div class="form-group">
+                <label for="cargo">Cargo *</label>
+                <input type="text" id="cargo" name="cargo" required placeholder="Gerente de Producción">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="empresa">Empresa *</label>
+              <input type="text" id="empresa" name="empresa" required placeholder="Nombre de tu empresa">
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos sobre tu proyecto o necesidad..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn contact-submit-btn">
+              <span class="btn-text">Enviar mensaje</span>
+              <span class="btn-icon">→</span>
+            </button>
+            <div class="form-message" id="contactFormMessage" style="display: none;"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© Quanta by Apalliance. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/573001234567?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20Quanta"
+     class="whatsapp-button"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-4.713 1.262 1.262-4.669-0.292-0.508c-1.207-2.100-1.847-4.507-1.847-6.924 0-7.435 6.050-13.485 13.485-13.485s13.485 6.050 13.485 13.485c0 7.435-6.050 13.485-13.485 13.485zM21.960 18.923c-0.314-0.157-1.858-0.917-2.146-1.021s-0.497-0.157-0.707 0.157c-0.210 0.314-0.812 1.021-0.995 1.229s-0.367 0.236-0.681 0.079c-0.314-0.157-1.327-0.489-2.526-1.558-0.934-0.832-1.564-1.861-1.748-2.175s-0.020-0.484 0.138-0.641c0.142-0.141 0.314-0.367 0.471-0.551s0.210-0.314 0.314-0.524c0.105-0.210 0.052-0.393-0.026-0.551s-0.707-1.703-0.969-2.332c-0.255-0.612-0.514-0.529-0.707-0.539-0.183-0.009-0.393-0.012-0.602-0.012s-0.551 0.079-0.838 0.393c-0.288 0.314-1.099 1.074-1.099 2.619s1.125 3.038 1.282 3.247c0.157 0.210 2.218 3.385 5.371 4.746 0.75 0.323 1.336 0.516 1.792 0.661 0.753 0.239 1.438 0.206 1.979 0.125 0.604-0.090 1.858-0.760 2.121-1.493s0.262-1.362 0.183-1.493c-0.079-0.131-0.288-0.210-0.602-0.367z" fill="currentColor"/>
+    </svg>
+  </a>
+
+  <!-- Modal Cotización -->
+  <div id="quoteModal" class="modal-overlay" aria-hidden="true" role="dialog" aria-label="Cotización">
+    <div class="modal-content" role="document">
+      <button type="button" class="modal-close" aria-label="Cerrar" id="quoteModalClose">&times;</button>
+      <div class="modal-body">
+        <!-- Pantalla 1: Formulario -->
+        <div class="modal-screen modal-screen-active" id="quoteFormScreen">
+          <form id="quoteForm" class="quote-form">
+            <div class="quote-form-section">
+              <h3 class="quote-section-label">Información de contacto</h3>
+              <div class="form-group">
+                <label for="quoteNombre">Nombre completo</label>
+                <input type="text" id="quoteNombre" name="nombre" required>
+              </div>
+              <div class="form-group">
+                <label for="quoteEmail">Email</label>
+                <input type="email" id="quoteEmail" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="quoteTelefono">Teléfono</label>
+                <input type="tel" id="quoteTelefono" name="telefono" placeholder="+57" required minlength="10" maxlength="15" pattern="[0-9+]{10,15}" title="Mínimo 10 dígitos">
+              </div>
+            </div>
+            <div class="quote-form-questions">
+              <div class="form-group">
+                <label for="quoteIndustria">Industria</label>
+                <select id="quoteIndustria" name="industria" required>
+                  <option value="">- Selecciona -</option>
+                  <option value="muebles-madera">Muebles y madera</option>
+                  <option value="papel-carton">Papel, cartón e impresión</option>
+                  <option value="construccion">Construcción industrializada</option>
+                  <option value="plasticos">Plásticos y derivados</option>
+                  <option value="textiles">Textiles y confecciones</option>
+                  <option value="alimentos">Alimentos y bebidas</option>
+                  <option value="cosmeticos">Cosméticos y cuidado personal</option>
+                  <option value="metalmecanica">Metalmecánica</option>
+                  <option value="maquinaria">Maquinaria y equipos</option>
+                  <option value="vehiculos">Vehículos y autopartes</option>
+                  <option value="electrodomesticos">Electrodomésticos y electrónica</option>
+                  <option value="quimicos">Químicos y farmacéuticos</option>
+                  <option value="otro">Otro/no clasificado</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="quoteTamano">Tamaño de empresa</label>
+                <select id="quoteTamano" name="tamanoEmpresa" required>
+                  <option value="">- Selecciona -</option>
+                  <option value="50-90">50–90 empleados</option>
+                  <option value="91-150">91–150 empleados</option>
+                  <option value="151-300">151–300 empleados</option>
+                  <option value="301-500">301–500 empleados</option>
+                  <option value="500+">&gt;500 empleados</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="quotePersonal">Personal en producción</label>
+                <select id="quotePersonal" name="personalProduccion" required>
+                  <option value="">- Selecciona -</option>
+                  <option value="0-20">≤ 20 empleados</option>
+                  <option value="21-50">21–50 empleados</option>
+                  <option value="51-100">51–100 empleados</option>
+                  <option value="100+">&gt; 100 empleados</option>
+                </select>
+              </div>
+            </div>
+            <div class="quote-consent">
+              <label class="quote-consent-label">
+                <input type="checkbox" id="quoteConsentDatos" name="consentDatos">
+                <span>Acepto el <a href="tratamiento-datos.html" target="_blank" rel="noopener">tratamiento de datos</a> y deseo recibir la cotización.</span>
+              </label>
+              <label class="quote-consent-label">
+                <input type="checkbox" id="quoteConsentPublicidad" name="consentPublicidad">
+                <span>Acepto recibir publicidad y comunicaciones comerciales de Quanta.</span>
+              </label>
+            </div>
+            <div class="modal-footer modal-footer-form">
+              <button type="submit" class="quote-btn-calc" id="quoteBtnCalc">Calcular estimación</button>
+              <p id="quoteFormHint" class="quote-form-hint" aria-live="polite" role="status"></p>
+            </div>
+          </form>
+        </div>
+
+        <!-- Pantalla 2: Financiamiento -->
+        <div class="modal-screen" id="quotePaymentScreen" aria-hidden="true">
+          <h2 class="payment-screen-title">Financiamiento de implementación</h2>
+          <p class="payment-screen-subtitle">Elige la forma de pago de la implementación.</p>
+          <p class="payment-screen-subtitle payment-screen-subtitle-2">Cuanto antes se active el proyecto, más eficiente operas y menos pagas.</p>
+
+          <div class="payment-options-wrapper">
+            <table class="payment-options-table" id="paymentOptionsTable">
+              <thead>
+                <tr>
+                  <th class="th-choose"></th>
+                  <th>Condición de pago</th>
+                  <th>Opciones de financiamiento</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="payment-option" data-option="A">
+                  <td class="td-choose">
+                    <label class="payment-option-label payment-option-label-inline">
+                      <input type="radio" name="paymentPlan" value="A">
+                    </label>
+                  </td>
+                  <td>1 pago contado</td>
+                  <td>
+                    <span class="option-details">
+                      <span class="option-desc">100% antes de iniciar implementación</span>
+                      <span class="option-price" id="paymentPriceA">$0.00 USD</span>
+                    </span>
+                  </td>
+                </tr>
+                <tr class="payment-option" data-option="B">
+                  <td class="td-choose">
+                    <label class="payment-option-label payment-option-label-inline">
+                      <input type="radio" name="paymentPlan" value="B">
+                    </label>
+                  </td>
+                  <td>2 pagos durante implementación</td>
+                  <td>
+                    <span class="option-details">
+                      <span class="option-desc">50% al inicio + 50% al finalizar implementación</span>
+                      <span class="option-price" id="paymentPriceB">2 cuotas de $0.00 USD cada una</span>
+                    </span>
+                  </td>
+                </tr>
+                <tr class="payment-option" data-option="D">
+                  <td class="td-choose">
+                    <label class="payment-option-label payment-option-label-inline">
+                      <input type="radio" name="paymentPlan" value="D">
+                    </label>
+                  </td>
+                  <td>12 pagos mensuales (post-implementación)</td>
+                  <td>
+                    <span class="option-details">
+                      <span class="option-desc">Plan extendido</span>
+                      <span class="option-price" id="paymentPriceD">12 cuotas de $0.00 USD cada una</span>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="payment-options-cards" id="paymentOptionsCards" aria-hidden="true">
+              <div class="payment-card payment-option" data-option="A">
+                <label class="payment-option-label">
+                  <input type="radio" name="paymentPlan" value="A">
+                  <div class="payment-card-content">
+                    <span class="payment-card-condition">1 pago contado</span>
+                    <span class="option-desc">100% antes de iniciar implementación</span>
+                    <span class="option-price" id="paymentPriceACard">$0.00 USD</span>
+                  </div>
+                </label>
+              </div>
+              <div class="payment-card payment-option" data-option="B">
+                <label class="payment-option-label">
+                  <input type="radio" name="paymentPlan" value="B">
+                  <div class="payment-card-content">
+                    <span class="payment-card-condition">2 pagos durante implementación</span>
+                    <span class="option-desc">50% al inicio + 50% al finalizar</span>
+                    <span class="option-price" id="paymentPriceBCard">2 cuotas de $0.00 USD</span>
+                  </div>
+                </label>
+              </div>
+              <div class="payment-card payment-option" data-option="D">
+                <label class="payment-option-label">
+                  <input type="radio" name="paymentPlan" value="D">
+                  <div class="payment-card-content">
+                    <span class="payment-card-condition">12 pagos (post-implementación)</span>
+                    <span class="option-desc">Plan extendido</span>
+                    <span class="option-price" id="paymentPriceDCard">12 cuotas de $0.00 USD</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <p class="payment-note">*No se suman descuento y condiciones de pago en forma de pago.</p>
+
+          <div class="modal-actions modal-actions-financing">
+            <a href="#" class="btn-financing btn-pdf" id="quoteBtnPdf" download>Descargar PDF</a>
+            <a href="https://wa.me/573001234567?text=Hola,%20tengo%20una%20cotización%20y%20me%20gustaría%20hablar%20con%20un%20asesor" target="_blank" rel="noopener" class="btn-financing btn-whatsapp" id="quoteBtnWhatsapp">Hablar con un asesor por WhatsApp</a>
+            <button type="button" class="btn-back" id="quoteBtnBack">Volver</button>
+            <button type="button" class="btn-financing btn-call" id="quoteBtnCall">Quiero que me llamen</button>
+          </div>
+        </div>
+
+        <div id="quoteSuccess" class="modal-success" hidden>
+          <p>Cotización enviada correctamente.</p>
+        </div>
+      </div>
+      <p class="modal-note">*Valor único de configuración inicial, incluyendo puesta en marcha y capacitación. El licenciamiento se cotiza aparte.</p>
+    </div>
+  </div>
+
+  <!-- Modal Comparación de licencias (solo clase propia para no interferir con modal cotización) -->
+  <div class="licencias-modal-overlay" id="licenciasModal" aria-hidden="true" role="dialog" aria-label="Comparación de licencias">
+    <div class="licencias-modal" role="document">
+      <button type="button" class="modal-close licencias-modal-close" aria-label="Cerrar" id="licenciasModalClose">✕</button>
+      <h2 class="licencias-modal-title">Comparación de licencias Quanta</h2>
+      <div class="licencias-table-container">
+        <table class="licencias-table">
+          <thead>
+            <tr>
+              <th class="capacidades-col">Capacidades</th>
+              <th class="plan-col">
+                <div class="plan-header">
+                  <span class="plan-name">Standard</span>
+                  <span class="plan-price">USD 108/mes</span>
+                </div>
+              </th>
+              <th class="plan-col">
+                <div class="plan-header">
+                  <span class="plan-name">Premium</span>
+                  <span class="plan-price">USD 120/mes</span>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ejecución de procesos operativos</td>
+              <td><span class="check-icon">✓</span></td>
+              <td><span class="check-icon">✓</span></td>
+            </tr>
+            <tr>
+              <td>Creación y seguimiento de órdenes</td>
+              <td><span class="check-icon">✓</span></td>
+              <td><span class="check-icon">✓</span></td>
+            </tr>
+            <tr>
+              <td>Registros de producción y movimientos de stock</td>
+              <td><span class="check-icon">✓</span></td>
+              <td><span class="check-icon">✓</span></td>
+            </tr>
+            <tr>
+              <td>Consulta de inventarios, productos y clientes</td>
+              <td><span class="check-icon">✓</span></td>
+              <td><span class="check-icon">✓</span></td>
+            </tr>
+            <tr>
+              <td>Reportes operativos y exportación básica</td>
+              <td><span class="check-icon">✓</span></td>
+              <td><span class="check-icon">✓</span></td>
+            </tr>
+            <tr class="divider-row">
+              <td>Acceso a dashboards globales y BI</td>
+              <td><span class="cross-icon">✗</span></td>
+              <td><span class="check-icon">✓</span></td>
+            </tr>
+            <tr>
+              <td>Configuración del sistema y parámetros</td>
+              <td><span class="cross-icon">✗</span></td>
+              <td><span class="check-icon">✓</span></td>
+            </tr>
+            <tr>
+              <td>Administración de módulos (mantenimiento, inventarios, finanzas, producción, ventas, MRP/ERP)</td>
+              <td><span class="cross-icon">✗</span></td>
+              <td><span class="check-icon">✓</span></td>
+            </tr>
+            <tr>
+              <td>Aprobación de procesos críticos</td>
+              <td><span class="cross-icon">✗</span></td>
+              <td><span class="check-icon">✓</span></td>
+            </tr>
+            <tr>
+              <td>Gestión de maestros (productos, proveedores, clientes)</td>
+              <td><span class="cross-icon">✗</span></td>
+              <td><span class="check-icon">✓</span></td>
+            </tr>
+            <tr>
+              <td>Reportes consolidados y análisis avanzado</td>
+              <td><span class="cross-icon">✗</span></td>
+              <td><span class="check-icon">✓</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="licencias-note">*Todas las licencias Premium incluyen acceso a la capacitación diaria. Las licencias Premium están pensadas para roles de gestión, control y toma de decisiones.</p>
+      <div class="licencias-modal-footer">
+        <button type="button" class="btn-promociones" id="btnPromociones">Ver promociones</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Promociones (opciones de pago licencias) -->
+  <div class="promociones-modal-overlay" id="promocionesModal" aria-hidden="true" role="dialog" aria-label="Opciones de pago licencias">
+    <div class="promociones-modal">
+      <button type="button" class="modal-close promociones-modal-close" aria-label="Cerrar" id="promocionesModalClose">✕</button>
+      <h2 class="promociones-modal-title">Opciones de pago licencias</h2>
+      <p class="promociones-modal-subtitle">Elige la modalidad de pago que mejor se adapte a tu empresa</p>
+      <div class="planes-grid">
+        <div class="plan-section">
+          <div class="plan-section-header">
+            <h3>Licencia Standard</h3>
+            <p class="base-price">Precio base: USD 108/mes por licencia</p>
+          </div>
+          <div class="payment-option anual">
+            <div class="option-header">
+              <span class="option-badge">Descuento 10%</span>
+              <h4>Opción A — Pago anual anticipado</h4>
+            </div>
+            <div class="option-body">
+              <p class="option-condition">12 mensualidades pagadas por adelantado</p>
+              <div class="price-savings-card">
+                <div class="price-row">
+                  <span class="label">Precio normal:</span>
+                  <span class="precio-original-grande">USD 1,296.00/año</span>
+                </div>
+                <div class="savings-arrow">
+                  <span class="arrow">↓</span>
+                  <span class="savings-text">Ahorras USD 129.60</span>
+                </div>
+                <div class="price-row destacado">
+                  <span class="label">Pagas solo:</span>
+                  <span class="precio-final">USD 1,166.40/año</span>
+                </div>
+              </div>
+              <div class="price-monthly">
+                <span class="equivalente">Equivalente a USD 97.20/mes por licencia</span>
+              </div>
+            </div>
+          </div>
+          <div class="payment-option mensual">
+            <div class="option-header">
+              <span class="option-badge standard">Precio estándar</span>
+              <h4>Opción B — Pago mensual</h4>
+            </div>
+            <div class="option-body">
+              <p class="option-condition">Facturación mensual</p>
+              <div class="price-breakdown">
+                <div class="price-item total">
+                  <span class="label">Precio mensual:</span>
+                  <span class="value">USD 108.00/mes</span>
+                </div>
+                <div class="price-item">
+                  <span class="label">Total anual:</span>
+                  <span class="value">USD 1,296.00/año</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="plan-section">
+          <div class="plan-section-header professional">
+            <h3>Licencia Premium</h3>
+            <p class="base-price">Precio base: USD 120/mes por licencia</p>
+          </div>
+          <div class="payment-option anual">
+            <div class="option-header">
+              <span class="option-badge">Descuento 10%</span>
+              <h4>Opción A — Pago anual anticipado</h4>
+            </div>
+            <div class="option-body">
+              <p class="option-condition">12 mensualidades pagadas por adelantado</p>
+              <div class="price-savings-card">
+                <div class="price-row">
+                  <span class="label">Precio normal:</span>
+                  <span class="precio-original-grande">USD 1,440.00/año</span>
+                </div>
+                <div class="savings-arrow">
+                  <span class="arrow">↓</span>
+                  <span class="savings-text">Ahorras USD 144.00</span>
+                </div>
+                <div class="price-row destacado">
+                  <span class="label">Pagas solo:</span>
+                  <span class="precio-final">USD 1,296.00/año</span>
+                </div>
+              </div>
+              <div class="price-monthly">
+                <span class="equivalente">Equivalente a USD 108.00/mes por licencia</span>
+              </div>
+            </div>
+          </div>
+          <div class="payment-option mensual">
+            <div class="option-header">
+              <span class="option-badge standard">Precio estándar</span>
+              <h4>Opción B — Pago mensual</h4>
+            </div>
+            <div class="option-body">
+              <p class="option-condition">Facturación mensual</p>
+              <div class="price-breakdown">
+                <div class="price-item total">
+                  <span class="label">Precio mensual:</span>
+                  <span class="value">USD 120.00/mes</span>
+                </div>
+                <div class="price-item">
+                  <span class="label">Total anual:</span>
+                  <span class="value">USD 1,440.00/año</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="promociones-note">
+        <p><strong>Nota:</strong> Los precios mostrados son por licencia. El contrato es anual en ambas modalidades.</p>
+        <p>Para cotizar tu número específico de licencias, contáctanos.</p>
+      </div>
+      <div class="promociones-modal-footer">
+        <button type="button" class="btn-secondary" id="promocionesBtnVolver">Volver</button>
+        <a href="#contacto" class="btn-primary" id="promocionesBtnCotizar">Solicitar cotización</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
