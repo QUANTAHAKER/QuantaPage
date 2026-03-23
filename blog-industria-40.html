@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Industria 4.0: qué es y cómo aplicarla | Blog Quanta</title>
+  <meta name="description" content="Descubre qué es la Industria 4.0, sus tecnologías clave y cómo aplicarla paso a paso en tu empresa manufacturera para mejorar la competitividad.">
+  <meta name="keywords" content="Industria 4.0, transformación digital manufactura, IoT producción, digitalización industrial, manufactura inteligente, Quanta">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Quanta by Apalliance">
+  <meta property="og:title" content="Industria 4.0: qué es y cómo aplicarla en manufactura | Quanta">
+  <meta property="og:description" content="La Industria 4.0 no es solo robots. Es integración, datos en tiempo real y decisiones inteligentes para manufactureros.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://quantapro.com.co/blog-industria-40.html">
+  <meta property="og:image" content="https://quantapro.com.co/image_blog3.jpg">
+  <link rel="canonical" href="https://quantapro.com.co/blog-industria-40.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .article-hero { padding: 120px 0 0; position: relative; }
+    .article-hero-img { width: 100%; max-height: 420px; object-fit: cover; border-radius: 16px; display: block; }
+    .article-meta { display: flex; align-items: center; gap: 1rem; margin: 2rem 0 1rem; }
+    .article-cat { background: rgba(139,92,246,0.15); color: #a78bfa; padding: 4px 14px; border-radius: 20px; font-weight: 600; font-size: 0.8rem; }
+    .article-time { color: #64748b; font-size: 0.85rem; }
+    .article-title { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; color: #f1f5f9; line-height: 1.25; margin-bottom: 2rem; }
+    .article-body { max-width: 760px; margin: 0 auto; color: #cbd5e1; font-size: 1.05rem; line-height: 1.85; }
+    .article-body h2 { font-size: 1.5rem; font-weight: 700; color: #f1f5f9; margin: 2.5rem 0 1rem; }
+    .article-body h3 { font-size: 1.2rem; font-weight: 600; color: #e2e8f0; margin: 2rem 0 0.75rem; }
+    .article-body p { margin-bottom: 1.25rem; }
+    .article-body ul { padding-left: 1.5rem; margin-bottom: 1.25rem; }
+    .article-body ul li { margin-bottom: 0.5rem; }
+    .article-body strong { color: #f1f5f9; }
+    .article-cta-box { background: linear-gradient(135deg, rgba(139,92,246,0.15), rgba(59,130,246,0.1)); border: 1px solid rgba(139,92,246,0.3); border-radius: 16px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta-box h3 { color: #f1f5f9; font-size: 1.3rem; font-weight: 700; margin-bottom: 0.75rem; }
+    .article-cta-box p { color: #94a3b8; margin-bottom: 1.25rem; }
+    .related-section { border-top: 1px solid rgba(255,255,255,0.08); padding: 3rem 0 4rem; margin-top: 3rem; }
+    .related-title { font-size: 1.3rem; font-weight: 700; color: #f1f5f9; margin-bottom: 2rem; }
+    .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+    .related-card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; overflow: hidden; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .related-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(139,92,246,0.12); }
+    .related-card img { width: 100%; height: 150px; object-fit: cover; }
+    .related-card-body { padding: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .related-card-meta { display: flex; align-items: center; gap: 0.6rem; font-size: 0.75rem; }
+    .related-card-cat { background: rgba(139,92,246,0.15); color: #a78bfa; padding: 2px 8px; border-radius: 20px; font-weight: 600; }
+    .related-card-time { color: #64748b; }
+    .related-card-title { font-size: 0.95rem; font-weight: 600; color: #e2e8f0; line-height: 1.4; }
+  </style>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="navbar-brand">
+        <div class="logo">
+          <img src="logo.png" alt="Quanta" class="logo-icon">
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-right">
+        <nav class="nav-menu nav-links" id="navMenu">
+          <a href="producto.html">Producto</a>
+          <a href="universidad.html">Universidad</a>
+          <a href="precios.html">Precios</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+        <div class="nav-buttons">
+          <a href="https://calendly.com/jcaro-qpalliance/demo-quanta" class="btn-demo" target="_blank" rel="noopener">Agenda una demo</a>
+          <a href="#login" class="btn-login">Login</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <article>
+    <section class="article-hero">
+      <div class="container">
+        <img src="image_blog3.jpg" alt="Industria 4.0 en manufactura" class="article-hero-img">
+        <div class="article-meta">
+          <span class="article-cat">Industria 4.0</span>
+          <span class="article-time">⏱ 8 min lectura</span>
+        </div>
+        <h1 class="article-title">Industria 4.0: qué es y cómo aplicarla en tu empresa manufacturera</h1>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="article-body">
+
+          <p>La Industria 4.0 es uno de los términos más usados en el mundo de la manufactura y también uno de los más mal entendidos. Para muchos gerentes, evoca imágenes de robots avanzados, fábricas completamente automatizadas y presupuestos millonarios. La realidad es mucho más accesible y práctica.</p>
+
+          <p>En este artículo explicamos qué es realmente la Industria 4.0, cuáles son sus tecnologías clave y, sobre todo, cómo pueden adoptarla las empresas manufactureras medianas que no tienen el presupuesto de una multinacional.</p>
+
+          <h2>¿Qué es la Industria 4.0?</h2>
+
+          <p>La Industria 4.0 es la cuarta revolución industrial. Las tres anteriores fueron:</p>
+          <ul>
+            <li><strong>1ra revolución:</strong> mecanización con vapor y agua (siglo XVIII).</li>
+            <li><strong>2da revolución:</strong> producción en masa con electricidad (siglo XIX).</li>
+            <li><strong>3ra revolución:</strong> automatización con electrónica y tecnología de la información (siglo XX).</li>
+          </ul>
+
+          <p>La <strong>4ta revolución</strong> consiste en la integración de sistemas físicos y digitales. No se trata solo de automatizar tareas, sino de conectar máquinas, sistemas y personas para que la información fluya en tiempo real y las decisiones se tomen con datos, no con intuición.</p>
+
+          <h2>Las tecnologías clave de la Industria 4.0</h2>
+
+          <h3>Internet de las Cosas Industrial (IIoT)</h3>
+          <p>Sensores y dispositivos conectados que capturan datos del piso de planta en tiempo real: temperatura de máquinas, tiempos de ciclo, consumo de energía, nivel de inventario. La información ya no depende de que alguien la registre manualmente.</p>
+
+          <h3>Big Data y Analytics</h3>
+          <p>El volumen de datos generado por una fábrica moderna es enorme. Las herramientas de análisis permiten encontrar patrones, anticipar fallas y optimizar procesos de formas que serían imposibles de detectar manualmente.</p>
+
+          <h3>Inteligencia Artificial y Machine Learning</h3>
+          <p>Algoritmos que aprenden del comportamiento histórico de la operación para predecir demanda, optimizar inventarios, detectar anomalías en producción y recomendar acciones correctivas antes de que ocurran los problemas.</p>
+
+          <h3>Cloud Computing</h3>
+          <p>La nube permite que los sistemas de gestión industrial estén disponibles desde cualquier lugar, sin necesidad de servidores locales costosos ni departamentos de IT propios. Es el habilitador que democratizó la tecnología para empresas medianas.</p>
+
+          <h3>Sistemas integrados (ERP / MRP)</h3>
+          <p>La base de cualquier transformación Industria 4.0 es tener los procesos internos conectados en un solo sistema. Sin esta integración, el resto de las tecnologías no tienen dónde aterrizar.</p>
+
+          <h2>El error más común: empezar por la tecnología</h2>
+
+          <p>La mayoría de las empresas que fracasan en su transformación digital lo hacen porque empiezan por la tecnología en lugar de empezar por los procesos. Compran robots, sensores o plataformas avanzadas antes de tener claro qué problema están resolviendo.</p>
+
+          <p>La secuencia correcta es:</p>
+          <ul>
+            <li><strong>Paso 1 – Digitaliza los procesos base:</strong> implementa un sistema de gestión (ERP/MRP) que conecte producción, inventarios y compras.</li>
+            <li><strong>Paso 2 – Genera visibilidad:</strong> asegúrate de que la información sea confiable, accesible y en tiempo real.</li>
+            <li><strong>Paso 3 – Analiza y mejora:</strong> usa los datos para identificar cuellos de botella y oportunidades de optimización.</li>
+            <li><strong>Paso 4 – Automatiza lo que ya funciona:</strong> solo automatiza procesos que ya están bien definidos y medidos.</li>
+          </ul>
+
+          <h2>¿Cómo encaja Quanta en la Industria 4.0?</h2>
+
+          <p>Quanta es el punto de partida de la transformación digital para empresas manufactureras. Cubre el paso 1 y el paso 2 de forma completa: conecta todos los procesos operativos en un solo sistema y genera dashboards e indicadores en tiempo real.</p>
+
+          <p>Su módulo de Business Intelligence permite visualizar KPIs de producción, eficiencia por línea, rotación de inventarios y cumplimiento de pedidos sin necesidad de exportar datos a Excel o contratar analistas especializados.</p>
+
+          <p>Para muchas empresas medianas, Quanta no es solo el primer paso hacia la Industria 4.0: es el habilitador que hace posible los pasos siguientes.</p>
+
+          <div class="article-cta-box">
+            <h3>Da el primer paso hacia la Industria 4.0</h3>
+            <p>Te mostramos en 30 minutos cómo Quanta puede ser la base de la transformación digital de tu manufactura.</p>
+            <a href="https://calendly.com/jcaro-qpalliance/demo-quanta" class="cta-button" target="_blank" rel="noopener">Agendar demo gratuita</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </article>
+
+  <!-- TAMBIÉN TE PUEDE INTERESAR -->
+  <section class="related-section">
+    <div class="container">
+      <div class="related-title">También te puede interesar</div>
+      <div class="related-grid">
+        <a href="blog-software-industrial.html" class="related-card">
+          <img src="image_blog1.jpg" alt="Software industrial">
+          <div class="related-card-body">
+            <div class="related-card-meta">
+              <span class="related-card-cat">MRP & ERP</span>
+              <span class="related-card-time">⏱ 7 min</span>
+            </div>
+            <div class="related-card-title">¿Qué es un software industrial y por qué tu empresa lo necesita?</div>
+          </div>
+        </a>
+        <a href="blog-que-es-mrp.html" class="related-card">
+          <img src="image_blog2.jpg" alt="Qué es un MRP">
+          <div class="related-card-body">
+            <div class="related-card-meta">
+              <span class="related-card-cat">MRP & ERP</span>
+              <span class="related-card-time">⏱ 5 min</span>
+            </div>
+            <div class="related-card-title">¿Qué es un MRP y para qué sirve en manufactura?</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© Quanta by Apalliance. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/573001234567?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20Quanta"
+     class="whatsapp-button"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-4.713 1.262 1.262-4.669-0.292-0.508c-1.207-2.100-1.847-4.507-1.847-6.924 0-7.435 6.050-13.485 13.485-13.485s13.485 6.050 13.485 13.485c0 7.435-6.050 13.485-13.485 13.485zM21.960 18.923c-0.314-0.157-1.858-0.917-2.146-1.021s-0.497-0.157-0.707 0.157c-0.210 0.314-0.812 1.021-0.995 1.229s-0.367 0.236-0.681 0.079c-0.314-0.157-1.327-0.489-2.526-1.558-0.934-0.832-1.564-1.861-1.748-2.175s-0.020-0.484 0.138-0.641c0.142-0.141 0.314-0.367 0.471-0.551s0.210-0.314 0.314-0.524c0.105-0.210 0.052-0.393-0.026-0.551s-0.707-1.703-0.969-2.332c-0.255-0.612-0.514-0.529-0.707-0.539-0.183-0.009-0.393-0.012-0.602-0.012s-0.551 0.079-0.838 0.393c-0.288 0.314-1.099 1.074-1.099 2.619s1.125 3.038 1.282 3.247c0.157 0.210 2.218 3.385 5.371 4.746 0.75 0.323 1.336 0.516 1.792 0.661 0.753 0.239 1.438 0.206 1.979 0.125 0.604-0.090 1.858-0.760 2.121-1.493s0.262-1.362 0.183-1.493c-0.079-0.131-0.288-0.210-0.602-0.367z" fill="currentColor"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

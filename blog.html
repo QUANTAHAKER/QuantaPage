@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Quanta - Manufactura Inteligente</title>
+  <meta name="description" content="Artículos, guías y recursos sobre MRP, ERP, software industrial e Industria 4.0 para empresas manufactureras.">
+  <meta name="keywords" content="blog manufactura, ERP industrial, MRP, Industria 4.0, software producción, Quanta">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Quanta by Apalliance">
+  <meta property="og:title" content="Blog | Quanta - Manufactura Inteligente">
+  <meta property="og:description" content="Artículos y guías para llevar tu empresa manufacturera hacia la Industria 4.0.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://quantapro.com.co/blog.html">
+  <link rel="canonical" href="https://quantapro.com.co/blog.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .blog-index-hero {
+      padding: 140px 0 60px;
+      text-align: center;
+    }
+    .blog-index-hero h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #fff 0%, #a78bfa 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .blog-index-hero p {
+      color: var(--text-secondary, #94a3b8);
+      font-size: 1.1rem;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+    .blog-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 2rem;
+      padding: 0 0 80px;
+    }
+    .blog-index-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+    }
+    .blog-index-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 60px rgba(139,92,246,0.15);
+    }
+    .blog-index-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .blog-index-card-body {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      flex: 1;
+    }
+    .blog-index-card-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.8rem;
+    }
+    .blog-index-card-cat {
+      background: rgba(139,92,246,0.15);
+      color: #a78bfa;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.75rem;
+    }
+    .blog-index-card-time {
+      color: #64748b;
+      font-size: 0.8rem;
+    }
+    .blog-index-card-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #f1f5f9;
+      line-height: 1.4;
+    }
+    .blog-index-card-excerpt {
+      color: #94a3b8;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      flex: 1;
+    }
+    .blog-index-card-cta {
+      color: #a78bfa;
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="navbar-brand">
+        <div class="logo">
+          <img src="logo.png" alt="Quanta" class="logo-icon">
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-right">
+        <nav class="nav-menu nav-links" id="navMenu">
+          <a href="producto.html">Producto</a>
+          <a href="universidad.html">Universidad</a>
+          <a href="precios.html">Precios</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+        <div class="nav-buttons">
+          <a href="https://calendly.com/jcaro-qpalliance/demo-quanta" class="btn-demo" target="_blank" rel="noopener">Agenda una demo</a>
+          <a href="#login" class="btn-login">Login</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="blog-index-hero">
+    <div class="hero-bg-grid" aria-hidden="true"></div>
+    <div class="container">
+      <h1>Blog Quanta</h1>
+      <p>Recursos, guías y artículos para llevar tu operación manufacturera hacia la Industria 4.0</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="blog-cards-grid">
+
+        <a href="blog-software-industrial.html" class="blog-index-card">
+          <img src="image_blog1.jpg" alt="Software industrial para manufactura">
+          <div class="blog-index-card-body">
+            <div class="blog-index-card-meta">
+              <span class="blog-index-card-cat">MRP & ERP</span>
+              <span class="blog-index-card-time">⏱ 7 min lectura</span>
+            </div>
+            <div class="blog-index-card-title">¿Qué es un software industrial y por qué tu empresa manufacturera lo necesita?</div>
+            <div class="blog-index-card-excerpt">Descubre cómo un software industrial conecta producción, inventarios y finanzas en un solo sistema para eliminar los errores del Excel.</div>
+            <div class="blog-index-card-cta">Leer artículo →</div>
+          </div>
+        </a>
+
+        <a href="blog-que-es-mrp.html" class="blog-index-card">
+          <img src="image_blog2.jpg" alt="Qué es un MRP">
+          <div class="blog-index-card-body">
+            <div class="blog-index-card-meta">
+              <span class="blog-index-card-cat">MRP & ERP</span>
+              <span class="blog-index-card-time">⏱ 5 min lectura</span>
+            </div>
+            <div class="blog-index-card-title">¿Qué es un MRP y para qué sirve en manufactura?</div>
+            <div class="blog-index-card-excerpt">Un MRP determina qué producir, cuánto producir y cuándo hacerlo. Aprende cómo funciona y por qué es la base de cualquier operación eficiente.</div>
+            <div class="blog-index-card-cta">Leer artículo →</div>
+          </div>
+        </a>
+
+        <a href="blog-industria-40.html" class="blog-index-card">
+          <img src="image_blog3.jpg" alt="Industria 4.0 en manufactura">
+          <div class="blog-index-card-body">
+            <div class="blog-index-card-meta">
+              <span class="blog-index-card-cat">Industria 4.0</span>
+              <span class="blog-index-card-time">⏱ 8 min lectura</span>
+            </div>
+            <div class="blog-index-card-title">Industria 4.0: qué es y cómo aplicarla en tu empresa manufacturera</div>
+            <div class="blog-index-card-excerpt">La Industria 4.0 no es solo robots y automatización. Es integración, datos en tiempo real y toma de decisiones inteligente para manufactureros.</div>
+            <div class="blog-index-card-cta">Leer artículo →</div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© Quanta by Apalliance. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/573001234567?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20Quanta"
+     class="whatsapp-button"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-4.713 1.262 1.262-4.669-0.292-0.508c-1.207-2.100-1.847-4.507-1.847-6.924 0-7.435 6.050-13.485 13.485-13.485s13.485 6.050 13.485 13.485c0 7.435-6.050 13.485-13.485 13.485zM21.960 18.923c-0.314-0.157-1.858-0.917-2.146-1.021s-0.497-0.157-0.707 0.157c-0.210 0.314-0.812 1.021-0.995 1.229s-0.367 0.236-0.681 0.079c-0.314-0.157-1.327-0.489-2.526-1.558-0.934-0.832-1.564-1.861-1.748-2.175s-0.020-0.484 0.138-0.641c0.142-0.141 0.314-0.367 0.471-0.551s0.210-0.314 0.314-0.524c0.105-0.210 0.052-0.393-0.026-0.551s-0.707-1.703-0.969-2.332c-0.255-0.612-0.514-0.529-0.707-0.539-0.183-0.009-0.393-0.012-0.602-0.012s-0.551 0.079-0.838 0.393c-0.288 0.314-1.099 1.074-1.099 2.619s1.125 3.038 1.282 3.247c0.157 0.210 2.218 3.385 5.371 4.746 0.75 0.323 1.336 0.516 1.792 0.661 0.753 0.239 1.438 0.206 1.979 0.125 0.604-0.090 1.858-0.760 2.121-1.493s0.262-1.362 0.183-1.493c-0.079-0.131-0.288-0.210-0.602-0.367z" fill="currentColor"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
